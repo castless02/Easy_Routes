@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="209dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_payment_data_save_prompt"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cvv"
+        app:layout_constraintTop_toBottomOf="@+id/cvv" />
+
+    <ImageView
+        android:id="@+id/datecard"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/ncarta3"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta3"
+        app:srcCompat="@drawable/calendar"
+        tools:srcCompat="@drawable/calendar" />
+
+    <Button
+        android:id="@+id/vaialriepilogo"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#0070C0"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_riepilogo"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="#EBEBEB"
+        android:ems="10"
+        android:hint="***"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta4" />
+
+    <EditText
+        android:id="@+id/intestatario"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="#EBEBEB"
+        android:ems="10"
+        android:hint="@string/payment_fragment_hint_name_surname"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta" />
+
+    <EditText
+        android:id="@+id/carta"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="#EBEBEB"
+        android:ems="10"
+        android:hint="4444 4444 4444 4444"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta2" />
+
+    <TextView
+        android:id="@+id/ncarta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_intestatario"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/intestatario"
+        app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+    <TextView
+        android:id="@+id/ncarta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_card_number"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/carta"
+        app:layout_constraintTop_toBottomOf="@+id/intestatario" />
+
+    <TextView
+        android:id="@+id/errorenumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_error"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta2"
+        app:layout_constraintEnd_toEndOf="@+id/carta"
+        app:layout_constraintTop_toTopOf="@+id/ncarta2" />
+
+    <TextView
+        android:id="@+id/erroreintestatario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_error"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta"
+        app:layout_constraintEnd_toEndOf="@+id/intestatario"
+        app:layout_constraintTop_toTopOf="@+id/ncarta" />
+
+    <TextView
+        android:id="@+id/erroredata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_enter_valid_date"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta3"
+        app:layout_constraintEnd_toEndOf="@+id/carta"
+        app:layout_constraintTop_toTopOf="@+id/ncarta3" />
+
+    <TextView
+        android:id="@+id/erroreccv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_enter_valid_cvv"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta4"
+        app:layout_constraintEnd_toEndOf="@+id/cvv"
+        app:layout_constraintTop_toTopOf="@+id/ncarta4" />
+
+    <TextView
+        android:id="@+id/ncarta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_expire_date"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/carta"
+        app:layout_constraintTop_toBottomOf="@+id/carta" />
+
+    <TextView
+        android:id="@+id/ncarta4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="CVV:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/cvv"
+        app:layout_constraintTop_toBottomOf="@+id/datecard" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/payment_fragment_prompt"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/erroreintestatario"
+        app:layout_constraintStart_toStartOf="@+id/resoconto"
+        app:layout_constraintTop_toBottomOf="@+id/resoconto" />
+
+    <TextView
+        android:id="@+id/resoconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/payment_fragment_title"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/datascadenzatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/datecard"
+        app:layout_constraintStart_toEndOf="@+id/datecard"
+        app:layout_constraintTop_toTopOf="@+id/datecard"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="@+id/cvv"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14">
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si"
+            tools:layout_editor_absoluteX="271dp"
+            tools:layout_editor_absoluteY="498dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="No" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

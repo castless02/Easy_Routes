@@ -1,0 +1,176 @@
+<resources>
+    <!-- Application core strings -->
+    <string name="app_name">Easy Routes</string>
+    <string name="er_preferences_file">er_preferences_file</string>
+    <!-- General elements -->
+    <string name="button_go_back">Indietro</string>
+    <string name="button_cancel">Annulla</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_search">Cerca</string>
+    <!-- Login fragment -->
+    <string name="er_login_welcome_title">Le tue mete comodamente in tasca</string>
+    <string name="login_button">Accedi</string>
+    <string name="register_button">Registrati</string>
+    <string name="lost_password_button">Hai dimenticato la password?</string>
+    <!-- Register fragment -->
+    <string name="register_textview_about_you_text">Per iniziare, dicci qualcosa su di te</string>
+    <string name="register_textview_name">Nome</string>
+    <string name="register_textview_surname">Cognome</string>
+    <string name="register_textview_email">Email</string>
+    <string name="register_textview_password">Password</string>
+    <string name="register_edittext_your_name">Il tuo nome</string>
+    <string name="register_edittext_your_surname">Il tuo cognome</string>
+    <string name="register_edittext_your_email">La tua email</string>
+    <string name="register_edittext_your_password">La tua password</string>
+    <string name="register_button_confirm_register">Conferma registrazione</string>
+    <string name="register_button_go_back">Indietro</string>
+    <string name="register_error_empty_fields">Alcuni campi sono errati o vuoti.</string>
+    <string name="register_error_general_issue">Si è verificato un problema durante la conferma della registrazione.</string>
+    <!-- Recover password fragment -->
+    <string name="recover_password_textview_enter_email">Inserisci la tua email</string>
+    <string name="recover_password_textview_temp_password">riceverai una password momentanea</string>
+    <string name="recover_password_textview_email">Email</string>
+    <string name="recover_password_edittext_recover_email_input">La tua email</string>
+    <string name="recover_password_button_confirm_recover">Recupera</string>
+    <!-- Explore fragment -->
+    <string name="welcome_back">Bentornato/a, </string>
+    <string name="where_do_you_want_to_go_today">Dove vuoi andare oggi?</string>
+    <string name="recommended_destinations">Le mete più richieste</string>
+    <string name="categories">Categorie</string>
+    <!-- User books fragment -->
+    <string name="user_books_title">Prenotazioni</string>
+    <string name="user_book_location">Luogo:</string>
+    <string name="user_book_start_date">Data di andata:</string>
+    <string name="user_book_end_date">Data di ritorno:</string>
+    <string name="user_book_no_destination_name">Senza nome</string>
+    <string name="user_book_id">ID</string>
+    <!-- Inserted coupon fragment -->
+    <string name="inserted_coupon_fragment">Il coupon è stato aggiunto.</string>
+    <!-- Room Fragment -->
+    <string name="room_fragment_price_per_person">€/persona</string>
+    <!-- Destination fragment -->
+    <string name="destination_get_er">Scarica l\'app ed iscriviti per usufruire della promozione.</string>
+    <string name="destination_book">Prenota</string>
+    <string name="destination_share">Condividi tramite</string>
+    <!-- Edit icon fragment -->
+    <string name="edit_icon_fragment_title">Seleziona la tua nuova icona</string>
+    <!-- Ask Fragment -->
+    <string name="ask_fragment_title">Ask</string>
+    <string name="ask_fragment_questions_button">Consigli sui viaggi</string>
+    <string name="ask_fragment_support_button">Assistenza clienti</string>
+    <string name="ask_fragment_enter_coupon">Inserisci coupon</string>
+    <string name="questions_description">Alcuni consigli prima di viaggiare:</string>
+    <string name="ask_fragment_text_1">Pianifica in anticipo: Prenota voli e alloggio in anticipo per risparmiare. Crea un itinerario dettagliato per massimizzare il tempo. Ricerche sulle destinazioni: Informazioni su cultura, tradizioni, attrazioni principali.</string>
+    <string name="ask_fragment_text_2">Sii flessibile: Aperto a modifiche e imprevisti lungo il percorso. Lascia spazio per l\'avventura.</string>
+    <string name="ask_fragment_text_3">Imballa in modo intelligente: Abiti versatili, solo l\'essenziale. Includi adattatori, farmaci e documenti importanti. Assicurazione di viaggio: Copertura per cancellazioni, emergenze mediche e smarrimento bagaglio.</string>
+    <string name="ask_fragment_text_4">Rispetta la cultura locale: Informarti sulle abitudini locali, adotta comportamenti appropriati.</string>
+    <string name="ask_fragment_text_5">Sicurezza personale: Tieni d\'occhio i tuoi effetti personali, evita zone pericolose e segui i consigli di sicurezza. Questa versione abbreviata mantiene i principali punti chiave del testo originale, fornendo consigli per un viaggio di successo in modo più conciso.</string>
+    <!-- Coupons fragment -->
+    <string name="coupons_fragment_enter_button">Inserisci</string>
+    <string name="coupons_fragment_enter_text">Inserisci il coupon</string>
+    <string name="coupons_fragment_not_found">Il coupon non è stato trovato.</string>
+    <string name="coupons_fragment_title">Coupon</string>
+    <!-- Coupon messo fragment -->
+    <string name="coupon_messo_fragment_confirm">Il coupon è stato inserito correttamente.</string>
+    <string name="coupon_messo_fragment_received">Ricevuto.</string>
+    <!-- Dati modificati fragment -->
+    <string name="dati_modificati_fragment_updated">Dati aggiornati con successo</string>
+    <string name="dati_modificati_fragment_prompt">Potrai visualizzare i tuoi dati nella prossima schermata.</string>
+    <!-- Edit user data fragment -->
+    <string name="edit_user_data_fragment_title">Modifica i tuoi dati</string>
+    <string name="edit_user_data_fragment_sex_male">Uomo</string>
+    <string name="edit_user_data_fragment_sex_female">Donna</string>
+    <string name="edit_user_data_fragment_sex_other">Altro</string>
+    <string name="edit_user_data_fragment_phone">Telefono</string>
+    <!-- User book info activity -->
+    <string name="user_book_info_from_date">dal</string>
+    <string name="user_book_info_to_date">al</string>
+    <string name="user_book_info_credit_card">Pagato con carta che termina con</string>
+    <string name="user_book_info_people_count">Numero di persone</string>
+    <string name="user_book_info_total_price">Costo complessivo</string>
+    <string name="user_book_info_vehicle">Mezzo di trasporto</string>
+    <string name="user_book_info_room_type">Tipologia camera</string>
+    <string name="user_book_delete_title">Cancella prenotazione</string>
+    <string name="user_book_delete_message">Sei sicuro di voler cancellare la prenotazione</string>
+    <string name="user_book_delete_message_confirm">Sì</string>
+    <string name="user_book_delete_message_no">No</string>
+    <string name="user_book_delete_success">Prenotazione cancellata con successo.</string>
+    <string name="user_book_delete_fail">Si è verificato un problema durante la cancellazione di questa prenotazione.</string>
+    <string name="user_book_rating_selection_title">Seleziona una valuazione</string>
+    <string name="user_book_rating_inserted_confirm">Valutazione inserita con successo.</string>
+    <string name="user_book_rating_inserted_error">Si è verificato un errore durante l\'inserimento della valutazione.</string>
+    <string name="user_book_rating_cancel">Annulla</string>
+    <string name="user_book_special_request_button">Richieste speciali</string>
+    <string name="user_book_special_request_title">Aggiungere i dettagli</string>
+    <string name="user_book_special_request_confirm">Richiesta inviata con successo. Riceverai un\'email di conferma.</string>
+    <!-- User booking payment use activity -->
+    <string name="paymentinfo_title">Pagamenti</string>
+    <string name="paymentinfo_message">Vuoi usare una tua carta già memorizzata?</string>
+    <string name="paymentinfo_message_confirm">Sì</string>
+    <string name="paymentinfo_message_no">No</string>
+    <string name="paymentinfo_success">Fatto.</string>
+    <string name="paymentinfo_fail">Si è verificato un problema.</string>
+    <!-- User book payment delete activity -->
+    <string name="deletepaymentinfo_title">Elimina Pagamenti</string>
+    <string name="deletepaymentinfo_message">Vuoi eliminare una tua carta già memorizzata?</string>
+    <string name="deletepaymentinfo_message_confirm">Sì</string>
+    <string name="deletepaymentinfo_message_no">No</string>
+    <string name="deletepaymentinfo_success">Fatto.</string>
+    <string name="deletepaymentinfo_fail">Si è verificato un problema.</string>
+    <!-- Email fragment -->
+    <string name="email_fragment_enter_new_email">Inserisci la nuova email</string>
+    <string name="email_fragment_new_email_text">Nuova email</string>
+    <string name="email_fragment_confirm_email_text">Conferma nuova email</string>
+    <!-- Main profile fragment -->
+    <string name="main_profile_fragment_sex">Sesso</string>
+    <string name="main_profile_fragment_credit">Credito</string>
+    <string name="main_profile_fragment_location">Residenza</string>
+    <string name="main_profile_fragment_edit_user_data_button">Modifica dati</string>
+    <string name="main_profile_fragment_edit_password">Modifica password</string>
+    <string name="main_profile_fragment_delete_payment_info">Elimina dati di pagamento</string>
+    <string name="main_profile_fragment_edit_email">Modifica email</string>
+    <string name="main_profile_fragment_your_info_title">Le tue informazioni</string>
+    <!-- Mezzi fragment -->
+    <string name="mezzi_fragment_title">Seleziona il mezzo che più preferisci</string>
+    <string name="mezzi_fragment_car">Automobile</string>
+    <string name="mezzi_fragment_motor">Ciclomotore</string>
+    <string name="mezzi_fragment_bicycle">Bicicletta</string>
+    <string name="mezzi_fragment_confirm">Verrai contattato da un nostro operatore telefonico e riceverai una email per concordare tutte le informazioni necessario per poter affittare questo veicolo</string>
+    <string name="mezzi_fragment_go_to_payment">Vai al pagamento</string>
+    <string name="mezzi_fragment_go_without">Procedi senza mezzo</string>
+    <!-- Modifica password fragment -->
+    <string name="modifica_password_enter_new">Inserisci la nuova password</string>
+    <string name="modifica_password_confirm">Conferma password</string>
+    <string name="modifica_password_new">Nuova password</string>
+    <string name="modifica_password_success">Password modificata con successo</string>
+    <string name="modifica_password_prompt">Dovrai usare la nuova password per effettuare il login.</string>
+    <!-- Payment fragment -->
+    <string name="payment_fragment_title">Pagamento</string>
+    <string name="payment_fragment_expire_date">Data scadenza</string>
+    <string name="payment_fragment_riepilogo">Riepilogo</string>
+    <string name="payment_fragment_hint_name_surname">Nome e cognome</string>
+    <string name="payment_fragment_intestatario">Intestatario:</string>
+    <string name="payment_fragment_card_number">Numero carta:</string>
+    <string name="payment_fragment_error">Inserire sequenza valida</string>
+    <string name="payment_fragment_enter_valid_date">Inserire data valida</string>
+    <string name="payment_fragment_enter_valid_cvv">Inserire CVV valido</string>
+    <string name="payment_fragment_prompt">Fornisci i tuoi dati di pagamento per proseguire.</string>
+    <string name="payment_fragment_payment_data_save_prompt">Desideri memorizzare i tuoi dati di pagamento per acquisti futuri?</string>
+    <!-- Recuperato fragment -->
+    <string name="recuperato_fragment_password_sent">Password inviata</string>
+    <string name="recuperato_fragment_password_sent_description">Se la tua email è presente nei nostri sistemi riceverai una mail contenente la tua password.</string>
+    <!-- Registered fragment -->
+    <string name="registered_fragment_done">Registrazione effettuata con successo.</string>
+    <string name="register_fragment_email_confirm">Accedi alla tua email per confermare il processo di attivazione.</string>
+    <!-- Room selection fragment -->
+    <string name="room_selection_fragment_title">Seleziona una camera</string>
+    <!-- Support fragment -->
+    <string name="support_fragment_title">Assistenza</string>
+    <string name="support_fragment_description">Compila il form sottostante e verrai ricontattato tramite email entro ventiquattro ore.</string>
+    <string name="support_fragment_send_ticket">Invia ticket</string>
+    <!-- Ticket sent fragment -->
+    <string name="ticket_sent_title">Ticket inviato</string>
+    <string name="ticket_sent_description">Controlla la tua mail, riceverai una risposta entro ventiquattro ore.</string>
+    <!-- Search results adapter -->
+    <string name="search_results_adapter_rating">Valutazione</string>
+</resources>

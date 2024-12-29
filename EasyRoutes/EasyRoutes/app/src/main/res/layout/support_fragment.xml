@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/inviaticket"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#9C63A351"
+        android:fontFamily="@font/poppins"
+        android:text="@string/support_fragment_send_ticket"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testoticket" />
+
+    <TextView
+        android:id="@+id/Assist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/support_fragment_title"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/Assistext"
+        app:layout_constraintStart_toStartOf="@+id/Assistext"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Assistext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/support_fragment_description"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/testoticket"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Assist" />
+
+    <EditText
+        android:id="@+id/testoticket"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="12dp"
+        android:background="#EBEBEB"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Assistext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

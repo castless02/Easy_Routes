@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/allan</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_light</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/poppins_thin</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/trade_winds</item>
+        <item>@font/walter_turncoat</item>
+    </array>
+</resources>

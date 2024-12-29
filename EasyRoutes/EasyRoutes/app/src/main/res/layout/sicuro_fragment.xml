@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/si"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#9CD30000"
+        android:fontFamily="@font/poppins"
+        android:text="Si, Procedi"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sicurodescr" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#9C63A351 "
+        android:fontFamily="@font/poppins"
+        android:text="No, indietro"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/si" />
+
+    <TextView
+        android:id="@+id/sicuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Sicuro?"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sicurodescr"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/poppins"
+        android:text="Se elimini la prenotazione potresti perdere la possibilità di prenotare nuovamente, riceverai un rimborso sul metodo di pagamento usato per pagare entro 7 giorni dall'annullamento"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sicuro" />
+</androidx.constraintlayout.widget.ConstraintLayout>

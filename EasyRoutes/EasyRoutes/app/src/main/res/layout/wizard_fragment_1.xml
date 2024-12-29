@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewDomanda1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:fontFamily="@font/poppins"
+        android:text="Quale tipologia di destinazione hai in mente?"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup2"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDomanda1">
+
+        <Button
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:backgroundTint="#0070C0"
+            android:text="Mare" />
+
+        <Button
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="#0070C0"
+            android:text="Montagna" />
+
+        <Button
+            android:id="@+id/radioButton2"
+            android:layout_width="288dp"
+            android:layout_height="44dp"
+            android:backgroundTint="#0070C0"
+            android:text="Campagna" />
+
+        <Button
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="#0070C0"
+            android:text="Centro storico" />
+
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/destination_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="destinationImage,destinationName" />
+
+    <ImageView
+        android:id="@+id/destinationImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/destinationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/destinationImage"
+        app:layout_constraintStart_toStartOf="@+id/destinationImage"
+        app:layout_constraintTop_toBottomOf="@+id/destinationImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

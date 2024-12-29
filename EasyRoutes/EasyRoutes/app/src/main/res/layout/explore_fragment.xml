@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ExploreActivity">
+
+        <TextView
+            android:id="@+id/welcomeMessageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/welcome_back"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/accountNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/poppins"
+            android:text="name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/welcomeMessageText"
+            app:layout_constraintStart_toEndOf="@+id/welcomeMessageText"
+            app:layout_constraintTop_toTopOf="@+id/welcomeMessageText" />
+
+        <TextView
+            android:id="@+id/whereDoYouWantToGoTodayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/where_do_you_want_to_go_today"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/welcomeMessageText"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeMessageText" />
+
+        <TextView
+            android:id="@+id/recommendedDestinationsText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/recommended_destinations"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/searchButton"
+            app:layout_constraintStart_toStartOf="@+id/searchButton"
+            app:layout_constraintTop_toBottomOf="@+id/searchButton" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recommendedDestinationsRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/categoriesText"
+            app:layout_constraintEnd_toEndOf="@+id/recommendedDestinationsText"
+            app:layout_constraintStart_toStartOf="@+id/recommendedDestinationsText"
+            app:layout_constraintTop_toBottomOf="@+id/recommendedDestinationsText" />
+
+        <TextView
+            android:id="@+id/categoriesText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/categories"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@id/categoriesRecyclerView"
+            app:layout_constraintEnd_toEndOf="@+id/recommendedDestinationsRecyclerView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/recommendedDestinationsRecyclerView"
+            app:layout_constraintTop_toBottomOf="@id/recommendedDestinationsRecyclerView"
+            tools:layout_editor_absoluteY="366dp" />
+
+        <ImageView
+            android:id="@+id/account"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#EBEBEB"
+            android:text="@string/button_search"
+            android:textColor="#000000"
+            app:cornerRadius="0dp"
+            app:icon="@android:drawable/ic_menu_search"
+            app:iconTint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/account"
+            app:layout_constraintStart_toStartOf="@+id/whereDoYouWantToGoTodayText"
+            app:layout_constraintTop_toBottomOf="@+id/whereDoYouWantToGoTodayText" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/categoriesRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/categoriesText"
+            app:layout_constraintStart_toStartOf="@+id/categoriesText"
+            app:layout_constraintTop_toBottomOf="@+id/categoriesText">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

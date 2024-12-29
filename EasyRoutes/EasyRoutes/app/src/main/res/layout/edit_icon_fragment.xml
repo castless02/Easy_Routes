@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/indietroicone"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#0070C0"
+        android:fontFamily="@font/poppins"
+        android:text="@string/button_go_back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TitoloIcone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/edit_icon_fragment_title"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/icona3"
+        app:layout_constraintStart_toStartOf="@+id/icona1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icona2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/icona5"
+        app:layout_constraintEnd_toStartOf="@+id/icona3"
+        app:layout_constraintStart_toEndOf="@+id/icona1"
+        app:srcCompat="@drawable/icon2" />
+
+    <ImageView
+        android:id="@+id/icona1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icona2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icona2"
+        app:srcCompat="@drawable/icon1" />
+
+    <ImageView
+        android:id="@+id/icona3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icona2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icona2"
+        app:srcCompat="@drawable/icon3" />
+
+    <ImageView
+        android:id="@+id/icona4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icona5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icona5"
+        app:srcCompat="@drawable/icon4" />
+
+    <ImageView
+        android:id="@+id/icona5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/indietroicone"
+        app:layout_constraintEnd_toStartOf="@+id/icona6"
+        app:layout_constraintStart_toEndOf="@+id/icona4"
+        app:layout_constraintTop_toBottomOf="@+id/TitoloIcone"
+        app:srcCompat="@drawable/icon5" />
+
+    <ImageView
+        android:id="@+id/icona6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icona5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icona5"
+        app:srcCompat="@drawable/icon6" />
+
+    <ImageView
+        android:id="@+id/icona7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icona8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icona8"
+        app:srcCompat="@drawable/icon7" />
+
+    <ImageView
+        android:id="@+id/icona8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/icona9"
+        app:layout_constraintStart_toEndOf="@+id/icona7"
+        app:layout_constraintTop_toBottomOf="@+id/icona5"
+        app:srcCompat="@drawable/icon8" />
+
+    <ImageView
+        android:id="@+id/icona9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icona8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icona8"
+        app:srcCompat="@drawable/icon9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

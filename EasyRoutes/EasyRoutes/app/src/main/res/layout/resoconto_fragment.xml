@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/pagamento"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="#0070C0"
+        android:fontFamily="@font/poppins"
+        android:text="Paga"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta12" />
+
+    <TextView
+        android:id="@+id/ncarta5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins"
+        android:text="Luogo:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resoconto4" />
+
+    <TextView
+        android:id="@+id/ncarta7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Carta:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta5" />
+
+    <TextView
+        android:id="@+id/ncarta9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Persone:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta7" />
+
+    <TextView
+        android:id="@+id/ncarta11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Data Inizio:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta9" />
+
+    <TextView
+        android:id="@+id/ncarta12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Data Fine:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta11" />
+
+    <TextView
+        android:id="@+id/ncarta6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Prezzo:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta12" />
+
+    <TextView
+        android:id="@+id/ncarta8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Credito:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/ncarta6"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta6" />
+
+    <TextView
+        android:id="@+id/ncarta10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:text="Prezzo Finale"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/ncarta8"
+        app:layout_constraintTop_toBottomOf="@+id/ncarta8" />
+
+    <TextView
+        android:id="@+id/luogoresoconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="Luogo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ncarta5" />
+
+    <TextView
+        android:id="@+id/cartaresoconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Carta"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta7"
+        app:layout_constraintEnd_toEndOf="@+id/luogoresoconto"
+        app:layout_constraintTop_toTopOf="@+id/ncarta7" />
+
+    <TextView
+        android:id="@+id/personeresoconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="N"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta9"
+        app:layout_constraintEnd_toEndOf="@+id/cartaresoconto"
+        app:layout_constraintTop_toTopOf="@+id/ncarta9" />
+
+    <TextView
+        android:id="@+id/datainizio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="1-12-1999"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta11"
+        app:layout_constraintEnd_toEndOf="@+id/personeresoconto"
+        app:layout_constraintTop_toTopOf="@+id/ncarta11" />
+
+    <TextView
+        android:id="@+id/datafine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="1-12-1999"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta12"
+        app:layout_constraintEnd_toEndOf="@+id/datainizio"
+        app:layout_constraintTop_toTopOf="@+id/ncarta12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/prezzo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="5€"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta6"
+        app:layout_constraintEnd_toEndOf="@+id/datafine"
+        app:layout_constraintTop_toTopOf="@+id/ncarta6" />
+
+    <TextView
+        android:id="@+id/creditoresoconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="5€"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta8"
+        app:layout_constraintEnd_toEndOf="@+id/prezzo1"
+        app:layout_constraintTop_toTopOf="@+id/ncarta8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/prezzofinale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="5€"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ncarta10"
+        app:layout_constraintEnd_toEndOf="@+id/creditoresoconto"
+        app:layout_constraintTop_toTopOf="@+id/ncarta10" />
+
+    <TextView
+        android:id="@+id/resoconto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Resoconto"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
