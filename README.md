@@ -1,4 +1,4 @@
-# Progetto Web e Mobile
+# Progetto Programmazione Web e Mobile 22/23
 
 ## Descrizione del Progetto
 Questo progetto è stato realizzato nell'ambito del corso di **Programmazione Web e Mobile** ed è una piattaforma che consente agli utenti di gestire viaggi e prenotazioni in modo semplice e intuitivo. La piattaforma offre funzionalità avanzate per semplificare il processo di pianificazione dei viaggi e garantire una migliore esperienza utente.
